@@ -1,6 +1,4 @@
-from flask_sqlalchemy import model
-from sqlalchemy.orm import load_only
-from ma import ma 
+from ma import ma
 from models.book import BookModel
 
 class BookSchema(ma.SQLAlchemyAutoSchema):
